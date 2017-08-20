@@ -168,6 +168,11 @@ body {
   .ttl:after {
     content: "なフレンズなんだね！"; }
 
+.box:after {
+  content: "";
+  display: block;
+  clear: both; }
+
 .box .serif-yokoso,
 .box .serif-sugoi,
 .box .serif-tanoshi {
