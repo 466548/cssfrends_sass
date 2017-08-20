@@ -1,0 +1,49 @@
+/* index */
+body {
+  background-color: #F4F6F6;
+}
+
+.ttl {
+  font-size: 16px;
+
+    &:before {
+      content: "あなたははは";
+    }
+
+    &:after {
+      content: "なフレンズなんだね！";
+    }
+}
+
+$bace-color:#F1C40F;
+
+.box {
+    .serif-yokoso,
+    .serif-sugoi,
+    .serif-tanoshi {
+      width: 33%;
+      float: left;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .serif-yokoso {
+      color: #fff;
+      border-radius: 3px;
+      background: lighten($bace-color, 15%);
+    }
+
+    .serif-sugoi {
+      color: #000;
+      border-radius: 50px;
+      background: #f5d657;
+    }
+
+    .serif-tanoshi {
+      background: #aa8a0a;
+    }
+}
